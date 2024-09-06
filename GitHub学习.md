@@ -49,6 +49,8 @@ Git的运行，首先是本地：分为工作区、暂存区、版本库
 - git remote add 远程仓库别名 远程仓库地址
 - git push -u origin master 本地 Git 仓库推送版本记录到远程仓库
 
+  //github上新建仓库时候就会自动提醒
+
 ## 04.Git 文件状态
 
 Git 文件 2 种状态：

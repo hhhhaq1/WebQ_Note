@@ -81,9 +81,11 @@ continue
 
 ```
 
-Aray数组:
+##### Aray数组:
 
 一个多条[] 一个多种{}
+
+数组的编号是从0开始的 如一个数组有4个元素 0,1,2,3
 
 在新的ECMA6中可以对数组直接进行简单的解构并且赋值
 
@@ -116,5 +118,19 @@ consloe.log(hobby)
 		//反转数组
         a.reverse();
         alert(a.join("="));
+		//删除数组
+		//第一个参数：表示开始位置的索引
+		//第二个参数：表示要删除的元素数量
+		a.splice(1,1)
+```
+
+##### 选取随机数的方式
+
+```javascript
+function getRandomInt(max){
+      return Math.floor(Math.random() * max);
+      }
+//表示0-4取随机数
+let n = getRandomInt(5)
 ```
 

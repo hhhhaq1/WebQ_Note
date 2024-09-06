@@ -134,9 +134,9 @@ Java中有方法，Js中有事件
 
 ​	Nan、null、underfind三者之间数据类型不同 number object underfind
 
-**特殊运算符 typeof
+**特殊运算符 typeof 使用
 
-​	运算结果:number、boolean、function、string、underfind、object比较字符串实用"=="
+​	运算结果是字符串"string" number、boolean、function、string、underfind、object比较字符串实用"=="
 
 #### Js中数据的显示和输出
 
@@ -276,7 +276,23 @@ a = new object();
 
 `...arr` 语法被称为扩展运算符（Spread Operator）。它允许一个表达式在需要多个参数（用于函数调用）或多个元素（用于数组字面量）或多个变量（用于解构赋值）的地方展开。
 
+##### 定时器间歇函数
+
+作用 重复执行某些代码,函数不用加小括号，返回值是一个id数字
+
+```javascript
+//需要使用let来定义不能使用const
+//setInterval(函数,间隔时间毫秒)
+setInterval(function(){
+	console.log()
+})
+//关闭ClearInertval(变量名)
+
+```
+
 #### 注意事项
 
 switch的结束之后需要添加break 防止穿透
+
+typeof
 

@@ -1,7 +1,33 @@
-# JS中Dom和Bom
+# Dom
 
 - DOM（**Document Object Model ，文档对象模型**）一种独立于语言，**用于操作xml，html文档**的**应用编程接口**。也可以叫方法
 
-- BOM 是 **Browser Object Model，浏览器对象模型**。**BOM 是为了控制浏览器的行为而出现的接口**。
+- 获取文档中特定id的元素
 
-  对于JavaScript：为了能够**让JavaScript能控制浏览器的行为**，**JavaScript就有了一套自己的BOM接口**。
+  ```javascript
+  doucment.getElementByid("")
+  ```
+
+- 获取文档中匹配指定 CSS 选择器的一个元素
+
+  ```javascript
+  document.querySelector("#demo");
+  doucment.querySelectorAll() ;//获取所有元素
+  ```
+
+- html中常常使用data- 来表示元素的自定义属性
+
+  ```html
+   <div data-sm="qqe">1</div>
+    <script>
+      //获取第一个div元素
+      const app = document.querySelector('div')
+      //获取自定义html属性
+      console.log(app.dataset.sm)
+    </script>
+  ```
+
+  
+
+​		
+

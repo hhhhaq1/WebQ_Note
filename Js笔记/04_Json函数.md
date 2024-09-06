@@ -9,6 +9,22 @@
 - 体积小
 - 容易解析
 
+3.Json的格式
+
+```javascript
+//这个是json
+let datas = {
+	"totals":5,
+	"student":[
+	{"name":"小明","hobby":"吃饭"},
+	{"name":"小明","hobby":"吃饭"},
+	{"name":"小明","hobby":"吃饭"},
+				]
+}
+//这个是数组
+const b = [a,a,a,1,2,3]
+```
+
 JSON:JavaScript 对象标记法
 
 Json格式化网站
@@ -39,8 +55,6 @@ window.eval("var jsonObj = " + fromJava);
 因此浏览器上接收到的结果还只是一个json格式的字符串还不是json对象
 
 {}是Json []是数组
-
-
 
 - 作用域  
 
